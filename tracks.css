@@ -1,0 +1,24 @@
+.contenedor {
+    display: grid;
+    grid-gap: 20px;
+    height: 700px;
+
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+
+    /*alinear horizontal*/
+    /*justify-content: space-around;/*agrega espacio entre las columnas*/
+    /*justify-content: space-between;/*deja espaciodo entre las columnas pero sin dejar 
+    espacio al inicio y al final del contenedor*/
+    justify-content: space-evenly;/*tiene el mismo espacio entre las columnas, el inicio
+    y el final del contenedor*/
+
+    /*alinear vertical*/
+    /*align-content: center;
+    align-content: space-around;
+    align-content: space-between;*/
+    align-content: space-evenly;
+
+
+}
+
